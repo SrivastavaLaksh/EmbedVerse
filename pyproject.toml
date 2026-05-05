@@ -1,0 +1,28 @@
+[project]
+name = "embedding-visualizer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "laksh.srivastava"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit (>=1.28.0)",
+    "pandas (>=2.0.0)",
+    "numpy (>=1.24.0)",
+    "plotly (>=5.18.0)",
+    "scikit-learn (>=1.3.0)",
+    "umap-learn (>=0.5.4)",
+    "gensim (>=4.3.0)",
+    "sentence-transformers (>=2.2.0)",
+    "transformers (>=4.35.0)",
+    "torch (>=2.0.0)",
+    "nltk (>=3.8.0)",
+    "scipy (>=1.11.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
